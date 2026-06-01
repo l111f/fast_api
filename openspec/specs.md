@@ -1,7 +1,5 @@
 # Specs: SD-01 RESTful 任务管理 API
 
-> 基于 [`requirements.md`](.cospec/task-api/requirements.md) 拆解，采用 OpenSpec 风格编写。  
-> 关键词遵循 [RFC 2119](https://tools.ietf.org/html/rfc2119) 语义：SHALL / MUST / SHOULD / MAY。
 
 ---
 

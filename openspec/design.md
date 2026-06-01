@@ -1,6 +1,6 @@
 # Design: SD-01 RESTful 任务管理 API
 
-> 基于 [`requirements.md`](.cospec/task-api/requirements.md) 与 [`specs.md`](specs.md) 进行系统架构与详细设计。
+> 基于[`specs.md`](specs.md) 进行系统架构与详细设计。
 
 ---
 
