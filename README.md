@@ -217,6 +217,4 @@ python -m pytest --cov=task_api --cov-report=html
 | `PORT` | `8000` | 服务器监听端口 |
 | `DATABASE_URL` | `sqlite+aiosqlite:///./tasks.db` | 数据库连接 URL |
 
-## 📄 许可证
 
-MIT License
