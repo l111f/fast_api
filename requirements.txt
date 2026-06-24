@@ -3,3 +3,10 @@ uvicorn[standard]
 sqlalchemy>=2.0
 aiosqlite
 pydantic>=2.0
+python-dotenv
+
+# 测试依赖
+pytest>=7.0
+pytest-asyncio>=0.21
+httpx>=0.24
+pytest-cov>=4.0

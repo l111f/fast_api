@@ -1,17 +1,31 @@
-# Python virtual environment
-venv/
-.venv/
-env/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.egg-info/
+dist/
+build/
+*.egg
 
-# Database
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 环境变量（不提交真实配置）
+.env
+.env.local
+
+# 数据库
 *.db
+*.sqlite
 *.sqlite3
+
+# 测试
+.coverage
+.pytest_cache/
+htmlcov/
 
 # IDE
 .vscode/
@@ -20,23 +34,13 @@ __pycache__/
 *.swo
 *~
 
-# OS
+# 日志
+*.log
+
+# 系统
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-# Distribution / build
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Environment variables
-.env
-.env.local
-
-# Git for Windows installation (should never be tracked)
-Git/
-
-# Old git backup
+# Git
 .git_backup/
