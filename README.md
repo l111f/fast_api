@@ -195,6 +195,14 @@ python -m pytest --cov=task_api --cov-report=term-missing
 python -m pytest --cov=task_api --cov-report=html
 ```
 
+### 测试结果
+
+最近一次完整测试运行结果：**143 个测试用例全部通过** ✅，整体代码覆盖率 **94%**。
+
+![测试结果](docs/test-results.png)
+
+> 上图为实际运行 `pytest` 的统计报告截图，包含通过数量、各模块覆盖率明细及进度条、测试用例运行示例。
+
 ### 测试架构
 
 | 层次 | 测试文件 | 类型 | 用例数 |

@@ -26,6 +26,7 @@ env/
 .coverage
 .pytest_cache/
 htmlcov/
+test_output.txt
 
 # IDE
 .vscode/
